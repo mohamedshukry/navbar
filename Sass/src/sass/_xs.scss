@@ -1,0 +1,48 @@
+
+
+
+
+header{
+
+	.container{
+		.nav-header{
+				background-color: #aeb0f3;
+				padding:10px;
+				height: 70px;
+				
+				
+				span{
+					line-height: 3;
+				}
+
+					.down{
+					clear: both;
+					display: none;
+					background-color: #aeb0f3;
+
+						 ul{
+						 	li{
+						 		list-style-type: none;
+						 		width: 120px;
+						 		height: 60px;
+						 		line-height: 60px;
+						 		padding-left: 10px;
+						 		text-align: left;
+						 		text-transform: uppercase;
+						 		span{
+						 		  a{	
+						 			color: black;
+						 			}
+						 		}
+						 		&:hover{
+						 			background-color: #9c78ca;
+						 			a{
+						 				text-decoration: none;
+						 			}
+						 		}
+						 	  }
+						   }
+						 }  
+					}
+	 		 }
+	   }   

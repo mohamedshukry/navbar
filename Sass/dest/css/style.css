@@ -1,0 +1,36 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+header .container .nav-header {
+  background-color: #aeb0f3;
+  padding: 10px;
+  height: 70px; }
+  header .container .nav-header span {
+    line-height: 3; }
+  header .container .nav-header .down {
+    clear: both;
+    display: none;
+    background-color: #aeb0f3; }
+    header .container .nav-header .down ul li {
+      list-style-type: none;
+      width: 120px;
+      height: 60px;
+      line-height: 60px;
+      padding-left: 10px;
+      text-align: left;
+      text-transform: uppercase; }
+      header .container .nav-header .down ul li span a {
+        color: black; }
+      header .container .nav-header .down ul li:hover {
+        background-color: #9c78ca; }
+        header .container .nav-header .down ul li:hover a {
+          text-decoration: none; }
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #container #content {
+    width: 66%;
+    float: left; } }
+/* Large devices (large desktops, 1200px and up) */
+
+/*# sourceMappingURL=style.css.map */
